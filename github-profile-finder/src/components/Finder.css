@@ -1,0 +1,145 @@
+*{
+    background-color: #b1e8ed;
+    color: #000;
+}
+.finder {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+.finder h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 8px;
+}
+.finder__subtitle {
+  text-align: center;
+  color: #000000;
+  margin-bottom: 30px;
+}
+.finder__input {
+  display: flex;
+  align-items: center;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 6px;
+  margin-bottom: 30px;
+}
+
+.finder__input input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 14px;
+  font-size: 16px;
+  background-color: #fff;
+  color: #000;
+}
+
+.finder__input button {
+  width: 48px;
+  height: 48px;
+  border: none;
+  border-radius: 8px;
+  background: #ffffff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.finder__input button img {
+  width: 22px;
+  height: 22px;
+  background-color: none;
+  background-color: #ffffff;
+}
+
+.profile {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  grid-template-rows: auto auto auto auto;
+  column-gap: 30px;
+  row-gap: 20px;
+
+  padding: 30px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.profile__info{
+    background-color: #ffffff;
+}
+
+.profile__info h2, p.username{
+    background-color: #ffffff;
+}
+
+.profile__avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.profile__heading {
+  align-self: center;
+}
+
+.profile__heading h2 {
+  margin: 0 0 5px;
+  font-size: 26px;
+}
+
+.profile__username {
+  margin: 0;
+  color: #000000;
+}
+
+.profile__bio {
+  grid-column: 1 / -1;
+  width: 100%;
+}
+
+p.bio{
+  background-color: #ffffff;
+}
+
+.profile__stats {
+  grid-column: 1 / -1;
+  background-color: #ffffff;
+  display: flex;
+  gap: 50px;
+}
+
+.profile__stats div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: #ffffff;
+}
+
+.profile__stats span {
+  font-size: 13px;
+  color: #777;
+  background-color: #ffffff;
+}
+
+.profile__stats strong {
+  font-size: 18px;
+  background-color: #ffffff;
+}
+.profile__link {
+  grid-column: 1 / -1;
+
+  justify-self: center;
+
+  padding: 10px 16px;
+  background: #babfc4;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
